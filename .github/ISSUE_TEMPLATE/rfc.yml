@@ -1,0 +1,50 @@
+name: RFC proposal
+description: Start discussion of a core concept or protocol change.
+title: "[RFC]: "
+labels: [rfc]
+body:
+  - type: markdown
+    attributes:
+      value: "Read rfcs/README.md first. Opening this Issue does not approve the proposal."
+  - type: dropdown
+    id: area
+    attributes:
+      label: Core area
+      options:
+        - Memory architecture
+        - Workflow protocol
+        - Runtime abstraction
+        - Permission model
+        - Marketplace protocol
+        - Package format
+        - Core terminology
+        - Compatibility model
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+    validations:
+      required: true
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibility impact
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I understand that this proposal must proceed through the RFC process.
+          required: true
+        - label: I am not proposing to rewrite the historical origin record.
+          required: true

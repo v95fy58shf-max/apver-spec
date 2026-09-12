@@ -1,0 +1,38 @@
+name: Feature proposal
+description: Propose a non-core improvement to this repository.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: "Core concepts and protocols cannot be changed through an ordinary feature request. Use the RFC form instead."
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+    validations:
+      required: true
+  - type: dropdown
+    id: core-impact
+    attributes:
+      label: Does this affect a core concept or protocol?
+      options:
+        - "No"
+        - "Yes — I will use the RFC form instead"
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched for an existing proposal.
+          required: true
+        - label: I am not using this form to rewrite Apver's original provenance.
+          required: true

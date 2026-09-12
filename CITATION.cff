@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use or discuss Apver, please cite the Apver project and the concept-v0.1 concept specification."
+title: Apver
+type: software
+version: concept-v0.1
+date-released: 2026-09-12
+repository-code: "https://github.com/v95fy58shf-max/apver-spec"
+url: "https://github.com/v95fy58shf-max/apver-spec/releases/tag/concept-v0.1"
+abstract: "The public concept specification and provenance record for Apver, a personal Agent world foundation."
+authors:
+  - name: v95fy58shf-max

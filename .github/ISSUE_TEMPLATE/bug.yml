@@ -1,0 +1,37 @@
+name: Documentation or infrastructure bug
+description: Report an error in the Apver specification repository.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not include secrets, tokens, or personal data."
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Describe the incorrect or broken behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: Location
+      description: Link the affected file, section, workflow, or page.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched for an existing Issue.
+          required: true
+        - label: This report contains no secrets, tokens, or personal data.
+          required: true

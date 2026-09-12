@@ -14,3 +14,5 @@ The name **Apver** comes from **APVerse**. The concept describes a personal Agen
 8. **Community Workflow Marketplace** — the future may allow community-developed workflows to be freely exchanged through a marketplace.
 
 This repository establishes a public, traceable record of the concept. It does not contain the Apver main application.
+
+Future technical implementation may be developed collaboratively. Attribution for technical contributions and provenance of the original concept are distinct records. This history documents a public and verifiable origin; it does not claim exclusive ownership of abstract ideas.
